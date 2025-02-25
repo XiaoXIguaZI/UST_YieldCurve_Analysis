@@ -1,7 +1,7 @@
 # UST Yield Curve Analysis
 
 ## 📌 Project Overview
-This project is part of the broader **UST Yield Curve Analysis** repository, which aims to update the **classic method of fitting yield curves using CRSP monthly bonds data**. The original research was conducted by **T.S. Coleman, Roger, and Fisher**, and our goal is to refine their methodology for yield curve estimation.
+This project is part of the broader **UST Yield Curve Analysis** repository, which aims to update the **classic method of fitting yield curves using CRSP monthly bonds data**. The original research was conducted by **Coleman, Ibbotson, and Fisher**, and our goal is to refine their methodology for yield curve estimation and market dynamics analysis.
 
 This specific module **compares different forward rate curve models** by processing `.pkl` output files and generating:  
 - **Monthly yield curve comparison plots** for specific `quotedate`s (**display_comparison.py**).  
@@ -50,30 +50,6 @@ UST_YieldCurve_Analysis/
 ---
 
 ## 🌍 Hosting Interactive Time Series Visualization
-Since `timeseries.py` generates interactive `.html` files, you can **host them publicly** via GitHub Pages:
-
-### **🚀 Option 1: GitHub Pages**
-1. Move the `.html` file to a GitHub Pages directory:
-   ```bash
-   mkdir -p docs
-   mv output/time_series/*.html docs/
-   ```
-2. Push the changes to your repository.
-3. Enable GitHub Pages in **Repository Settings → Pages**.
-4. Access the hosted page via:
-   ```
-   https://yourusername.github.io/UST_YieldCurve_Analysis/timeseries.html
-   ```
-
-### **🚀 Option 2: Netlify or Vercel**
-- Upload the `output/time_series/` folder to **Netlify** or **Vercel** to host the interactive page.
-
----
-
-## 🛠 Future Enhancements
-- Automate GitHub Pages deployment for new interactive updates.
-- Extend the comparison to additional bond yield datasets.
-- Improve UI/UX for interactive visualizations.
 
 ---
 
