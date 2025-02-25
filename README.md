@@ -11,6 +11,11 @@ These scripts call functions from `discfact.py` and `DateFunctions_1.py` to ensu
 
 ---
 
+## 🌍 Hosting Interactive Time Series Visualization
+- **try this⚡️:** 🔗[Access the interactive window here](https://xiaoxiguazi.github.io/UST_YieldCurve_Analysis/parbd_rate.html)
+
+---
+
 ## 📂 File Structure
 ```
 UST_YieldCurve_Analysis/
@@ -46,8 +51,3 @@ UST_YieldCurve_Analysis/
 - **timeseries.py** generates static & interactive time series plots:
   - **Static plots**: Different maturities over time (e.g., 10YR, 30YR) → saved in `output/time_series/*.png`.
   - **Interactive HTML visualization**: Multi-maturity time series with a slider → saved as `output/time_series/*.html`.
-
----
-
-## 🌍 Hosting Interactive Time Series Visualization
-- [Access the interactive window here](https://xiaoxiguazi.github.io/UST_YieldCurve_Analysis/parbd_rate.html)
