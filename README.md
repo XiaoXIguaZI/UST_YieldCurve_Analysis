@@ -50,7 +50,4 @@ UST_YieldCurve_Analysis/
 ---
 
 ## 🌍 Hosting Interactive Time Series Visualization
-[Access the interactive window here](https://xiaoxiguazi.github.io/UST_YieldCurve_Analysis/parbd_rate.html)
----
-
-### 📥 [View on GitHub](https://github.com/yourusername/UST_YieldCurve_Analysis) | 📄 [Download Full Report](report.pdf)
+- [Access the interactive window here](https://xiaoxiguazi.github.io/UST_YieldCurve_Analysis/parbd_rate.html)
